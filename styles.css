@@ -133,5 +133,6 @@ section div button:hover{
     border: 4px solid rgb(167, 154, 178);
     transition:0.3s ;
     cursor: pointer;
+    text-decoration: none;
 
 }
