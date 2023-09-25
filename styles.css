@@ -218,12 +218,34 @@ section div button:hover{
 
     }
     .meu-nome h4{
-        top: 70%;
+        top: 75%;
     }
     .imagem{
         left: 77%;
         top: 33%;
         height: 110px;
+    }
+}
+@media (max-width: 1366px) {
+    .meu-nome h1 {
+        font-size: 18rem;
+        top: 25%;
+    }
+    .meu-nome h3 {
+        font-size: 3rem;
+        top: 25%;
+
+    }
+    .meu-nome h4{
+        top: 79%;
+        font-size:2rem ;
+    }
+    .imagem{
+        left: 60%;
+        top: 35%;
+    }
+    .imagem img{
+        height: 100px;
     }
 }
 @media (max-width: 1025px) {
