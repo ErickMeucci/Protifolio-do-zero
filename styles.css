@@ -207,7 +207,7 @@ section div button:hover{
     }
 
 }
-@media (max-width: 1441px) {
+@media (max-width: 1440px) {
     .meu-nome h1 {
         font-size: 24rem;
         top: 25%;
@@ -218,12 +218,14 @@ section div button:hover{
 
     }
     .meu-nome h4{
-        top: 75%;
+        top: 80%;
     }
     .imagem{
         left: 77%;
         top: 33%;
-        height: 110px;
+    }
+    .imagem img{
+        height: 100px;
     }
 }
 @media (max-width: 1366px) {
