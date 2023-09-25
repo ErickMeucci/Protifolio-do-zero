@@ -312,7 +312,10 @@ section div button:hover{
         margin-left: 20%;
     }
     section div h2{
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+    section div p {
+        font-size: 1.3;
     }
     section div{
         position: absolute;
