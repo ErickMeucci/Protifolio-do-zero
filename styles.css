@@ -310,6 +310,9 @@ section div button:hover{
     }
     section div button{
         margin-left: 20%;
+        height: 30px;
+        width: 120px;
+        font-size: 1.3rem;
     }
     section div h2{
         font-size: 3rem;
