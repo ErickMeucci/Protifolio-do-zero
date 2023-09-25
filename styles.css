@@ -274,35 +274,59 @@ section div button:hover{
         height: 100px;
     }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 950px) {
     .meu-nome h1 {
-        font-size: 12rem;
-
-
+        font-size: 9rem;
+        left: 8%;
+        top:20% ;
     }
-
     .meu-nome h3 {
-        font-size: 3rem;
-        top: 34%;
-        left: 11%;
+        font-size: 2.6rem;
+        top: 15%;
+        left: 8%;
     }
-
     .meu-nome h4 {
         font-size: 1.8rem;
-        left: 20%;
-        top: 60%;
+        left: 15%;
+        top: 48%;
     }
-
     .imagem {
-        top: 38%;
-        left: 78%;
-        
+        top: 55%;
+        left: 50%;   
+        flex-wrap: wrap;  
     }
     .imagem img{
-        height: 80px;
+        height: 90px;
     }
-}@media (max-width: 426px) {
+    section{
+        flex-wrap: wrap;
+    }
+    section img{
+        height: 250px;
+        margin-left: 50px;
+        position: absolute;
+        top: 120%;
+        left:20%;
+    }
+    section div button{
+        margin-left: 20%;
+    }
+    section div h2{
+        font-size: 3rem;
+    }
+    section div{
+        position: absolute;
+        top: 150%;
+    }
+
+}
+@media (max-width: 550px){
+    .meu-nome h1{
+        font-size: 6rem;
+    }
+
+}
+@media (max-width: 426px) {
     .meu-nome h1 {
         font-size: 5.5rem;
         left: 5%;
@@ -332,7 +356,7 @@ section div button:hover{
         flex-wrap: wrap;
     }
     section img{
-        height: 250px;
+        height: 200px;
         margin-left: 50px;
     }
     section div button{
