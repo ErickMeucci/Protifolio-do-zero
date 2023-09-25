@@ -278,14 +278,15 @@ section div button:hover{
     .imagem img{
         height: 80px;
     }
-}@media (max-width: 425px) {
+}@media (max-width: 426px) {
     .meu-nome h1 {
         font-size: 7rem;
         left: 5%;
+        top: 20%;
     }
     .meu-nome h3 {
         font-size: 2.5rem;
-        top: 33%;
+        top: 15%;
         left: 8%;
     }
     .meu-nome h4 {
