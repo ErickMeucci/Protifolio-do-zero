@@ -280,7 +280,7 @@ section div button:hover{
     }
 }@media (max-width: 426px) {
     .meu-nome h1 {
-        font-size: 7rem;
+        font-size: 5.5rem;
         left: 5%;
         top: 20%;
     }
